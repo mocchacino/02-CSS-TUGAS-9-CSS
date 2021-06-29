@@ -1,0 +1,28 @@
+Z-Index, float, dan position
+img{
+    z-index: -1 !important;
+    position: relative !important;
+    top: 10px !important;
+    right:10px !important;
+    float: right !important;
+    display: none !important;
+    visibility: hidden !important;
+    width: 500px !important;
+    height: 450px !important;
+}
+body{
+    background-image: url(slider2.jpg);
+    background-size: cover;
+}
+div{
+    z-index: 10;
+    font-size: 80%;
+    font-weight: 900;
+    text-align: right;
+    background-color: white;
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 450px;
+    padding: 0 5px 0 5px;
+}
